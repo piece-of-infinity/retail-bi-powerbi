@@ -1,4 +1,4 @@
-# Fashion Retail BI — Power BI Reporting Application
+# Retail BI — Power BI Reporting Application
 
 Учебный проект курса **Business Intelligence Applications** (TH Nürnberg, WiSe 2025/26, оценка **1.7 / Good**).
 
