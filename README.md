@@ -1,4 +1,4 @@
-# Retail BI — Power BI Reporting Application
+# Retail BI - Power BI Reporting Application
 
 Учебный проект курса **Business Intelligence Applications** (TH Nürnberg, WiSe 2025/26, оценка **1.7 / Good**).
 
@@ -29,7 +29,7 @@
 6. **Q6**: Изменение выручки 2016 → 2017 в разрезе производителей (waterfall)?
 7. **Q7**: Сравнение realized vs possible revenue через нестандартный визуал (AppSource Bullet Chart)?
 
-Для каждого вопроса сохранена закладка (bookmark) — гарантирует воспроизводимость аналитики.
+Для каждого вопроса сохранена закладка (bookmark) - гарантирует воспроизводимость аналитики.
 
 ## Скриншоты
 
@@ -60,7 +60,7 @@
 ### How-to page
 ![How-to](images/11_how_to_page.png)
 
-### Power Query — raw source files
+### Power Query - raw source files
 ![Raw files](images/02_raw_data_in_powerbi.png)
 
 ### Append всех стран в один fact
@@ -81,7 +81,7 @@ retail-bi-powerbi/
 
 1. Скачайте `retail_bi.pbix` (или склонируйте репозиторий).
 2. Откройте в **Power BI Desktop** (Windows). Бесплатная установка: [powerbi.microsoft.com/desktop](https://powerbi.microsoft.com/desktop/).
-3. Полная документация со скриншотами и обоснованием решений — `docs/Documentation.pdf`.
+3. Полная документация со скриншотами и обоснованием решений - `docs/Documentation.pdf`.
 
 > Сырые данные в репо не публикуются (учебный кейс), но все трансформации детально описаны в документации и воспроизводимы.
 
@@ -100,4 +100,4 @@ retail-bi-powerbi/
 
 ## Лицензия
 
-Учебный проект, представлен в портфельных целях. Код DAX-мер и логика модели — свободны для повторного использования. Исходные данные не распространяются.
+Учебный проект, представлен в портфельных целях. Код DAX-мер и логика модели - свободны для повторного использования. Исходные данные не распространяются.
