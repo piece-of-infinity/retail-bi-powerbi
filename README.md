@@ -14,7 +14,7 @@
 - **Автоматизированный ETL через Power Query**: загрузка CSV/XLS, очистка, стандартизация типов, транспонирование, обработка ZIP/postal codes (numeric для USA/Germany, alphanumeric для Canada), append таблиц трёх стран в единую fact-таблицу.
 - **Star schema** с fact-таблицей `Sales_all_countries` и dimension-таблицами `Product`, `Manufacturer`, `Geo`, `DateTable`. Связи many-to-one от dimensions к фактам.
 - **DAX-меры**: `Total Realized Revenue`, `Total Realized Revenue YTD`, `Total Possible Revenue`, `Total Possible Revenue YTD`, `Realized Revenue YOY`, `Realized Revenue YOY %`, `Realized Revenue YoY Absolute`, `Revenue gap`, `Possible Revenue`.
-- **5 страниц отчёта**: How-to, Overview (Country & Category), City Finder, City Analysis (Q2–Q3), City Analysis 2017 — drill-through (Q4–Q7).
+- **5 страниц отчёта**: How-to, Overview (Country & Category), City Finder, City Analysis (Q2–Q3), City Analysis 2017 - drill-through (Q4–Q7).
 - **Визуалы**: bar charts, line charts, cards, map visuals (geographic distribution по ZIP), waterfall chart (YoY breakdown по производителям), AppSource Bullet Chart by OKViz (realized vs possible revenue), slicers, bookmarks для воспроизведения предзаданных аналитических состояний, drill-through для перехода в детальный анализ конкретного города.
 
 ## Бизнес-задача
@@ -36,7 +36,7 @@
 ### Обзор страниц отчёта
 ![Pages overview](images/01_report_pages_overview.png)
 
-### Overview Dashboard — Country & Category
+### Overview Dashboard - Country & Category
 ![Overview](images/06_overview_dashboard.png)
 
 ### Star schema
@@ -51,7 +51,7 @@
 ### City Analysis (Q2–Q3)
 ![City Analysis](images/08_city_analysis_page.png)
 
-### City Analysis 2017 — Drill-through (Q4–Q7)
+### City Analysis 2017 - Drill-through (Q4–Q7)
 ![Drill-through](images/09_city_analysis_2017_drillthrough.png)
 
 ### ZIP-level revenue (закладка Q5)
@@ -88,7 +88,7 @@ retail-bi-powerbi/
 ## Что показывает этот проект
 
 - Работа с разнородными источниками (CSV + XLS) и приведение их к единой модели.
-- ETL без модификации исходных файлов — все шаги в Power Query, поддерживает refresh.
+- ETL без модификации исходных файлов - все шаги в Power Query, поддерживает refresh.
 - Понимание звёздной схемы и one-to-many связей.
 - DAX time-intelligence (`YTD`, `YOY`, `SAMEPERIODLASTYEAR`).
 - Аналитическое мышление: декомпозиция бизнес-вопросов на конкретные страницы и закладки.
